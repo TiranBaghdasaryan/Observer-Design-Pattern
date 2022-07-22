@@ -41,11 +41,6 @@ namespace Observer_Design_Pattern.Components
 
         public void NotifyObservers()
         {
-            // foreach (var observer in _observers)
-            // {
-            //     observer.UpdateAvailability(_availability,ProductName);
-            // }
-            
             onAvailabilityChanged?.Invoke(_availability,ProductName);
         }
     }
