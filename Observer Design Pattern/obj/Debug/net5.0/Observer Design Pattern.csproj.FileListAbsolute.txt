@@ -1,0 +1,16 @@
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.exe
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.deps.json
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.runtimeconfig.json
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.runtimeconfig.dev.json
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.dll
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\ref\Observer Design Pattern.dll
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\bin\Debug\net5.0\Observer Design Pattern.pdb
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.csproj.AssemblyReference.cache
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.AssemblyInfoInputs.cache
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.AssemblyInfo.cs
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.dll
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\ref\Observer Design Pattern.dll
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.pdb
+C:\Users\Acer\RiderProjects\Observer Design Pattern\Observer Design Pattern\obj\Debug\net5.0\Observer Design Pattern.genruntimeconfig.cache
