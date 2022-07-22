@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using Observer_Design_Pattern.Enums;
 using Observer_Design_Pattern.Interfaces;
 
@@ -6,8 +6,7 @@ namespace Observer_Design_Pattern.Components
 {
     public class Subject : ISubject
     {
-        private List<IObserver> _observers = new List<IObserver>();
-
+        event Action<Availability,string> onAvailabilityChanged;
         public Subject(string productName, int productPrice, Availability availability)
         {
             ProductName = productName;
@@ -31,20 +30,23 @@ namespace Observer_Design_Pattern.Components
 
         public void RegisterObserver(IObserver observer)
         {
-            _observers.Add(observer);
+            onAvailabilityChanged -= observer.UpdateAvailability;
+            onAvailabilityChanged += observer.UpdateAvailability;
         }
 
         public void RemoveObserver(IObserver observer)
         {
-            _observers.Remove(observer);
+            onAvailabilityChanged -= observer.UpdateAvailability;
         }
 
         public void NotifyObservers()
         {
-            foreach (var observer in _observers)
-            {
-                observer.UpdateAvailability(_availability,ProductName);
-            }
+            // foreach (var observer in _observers)
+            // {
+            //     observer.UpdateAvailability(_availability,ProductName);
+            // }
+            
+            onAvailabilityChanged?.Invoke(_availability,ProductName);
         }
     }
 }
