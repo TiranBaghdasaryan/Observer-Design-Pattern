@@ -34,6 +34,7 @@ namespace Observer_Design_Pattern.Components
             onAvailabilityChanged += observer.UpdateAvailability;
         }
 
+        
         public void RemoveObserver(IObserver observer)
         {
             onAvailabilityChanged -= observer.UpdateAvailability;
